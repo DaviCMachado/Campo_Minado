@@ -1,0 +1,215 @@
+# depslib dependency file v1.0
+1655150461 source:d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1655150407 d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426372440 d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\include\gl\glut.h
+	"freeglut_std.h"
+
+1437579942 d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426372440 d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1655835771 source:d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"auxiliar.h"
+
+1595874226 d:\ufsm\disciplinas\logica e algoritmo\programas\la_14_canvas2d_win\meuprograma\src\auxiliar.h
+
+1655150461 source:c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1655150407 c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426372440 c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\include\gl\glut.h
+	"freeglut_std.h"
+
+1437579942 c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426372440 c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1655835771 source:c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"auxiliar.h"
+
+1595874226 c:\users\user\onedrive\documentos\canvas\la_14_canvas2d_win\meuprograma\src\auxiliar.h
+
+1691787606 source:c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1655150407 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426372440 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\include\gl\glut.h
+	"freeglut_std.h"
+
+1437579942 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426372440 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1691793721 source:c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"auxiliar.h"
+	"timer.h"
+	"menu.h"
+	"matrix.h"
+	"cursor.h"
+	"end.h"
+
+1595874226 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\auxiliar.h
+
+1691791695 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\timer.h
+	<time.h>
+
+1691795041 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\menu.h
+	"timer.h"
+	"matrix.h"
+	"cursor.h"
+
+1691795392 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\matrix.h
+
+1691791573 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\cursor.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1691793623 c:\users\user\onedrive\documentos\agora vai\la_14_canvas2d_win\campo minado\src\end.h
+
+1691787606 source:c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1655150407 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426372440 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\include\gl\glut.h
+	"freeglut_std.h"
+
+1437579942 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426372440 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1691879006 source:c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\main.cpp
+	<limits.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"auxiliar.h"
+	"timer.h"
+	"menu.h"
+	"IA.h"
+	"matrix.h"
+	"cursor.h"
+
+1595874226 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\auxiliar.h
+
+1691859312 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\timer.h
+	<time.h>
+
+1691879476 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\menu.h
+	"timer.h"
+	"matrix.h"
+	"cursor.h"
+	"IA.h"
+
+1691875126 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\matrix.h
+
+1691862022 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\cursor.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1691858382 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\end.h
+	"menu.h"
+
+1691884556 c:\users\user\onedrive\documentos\agora vai\trab 1 - lab 2\campo minado\src\ia.h
+	"menu.h"
+	"matrix.h"
+	<time.h>
+
