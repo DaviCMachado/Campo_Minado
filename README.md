@@ -1,1 +1,1 @@
-# Lab-2 - Trabalhos desenvolvidos durante o 2 semestre de 2023
+# Lab-2 - Jogo de Campo Minado desenvolvido para a API Gráfica Canvas2D
