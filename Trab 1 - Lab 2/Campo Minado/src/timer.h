@@ -1,26 +1,21 @@
 #ifndef TIMER_H_INCLUDED
 #define TIMER_H_INCLUDED
 #include <time.h>
-
 #define tempo 1000
 #define timX 580
 #define timY 20
 
-
 void timer (double a)
 {
-    int m, s, m2, s2;
-
-    m = (int) a / 60;
-    m2 = (int) a / 600;
-    s = (int) a / 10;
-    s2 = (int) a % 600;
+    int m = (int) a / 60;
+    int m2 = (int) a / 600;
+    int s = (int) a / 10;
+    int s2 = (int) a % 600;
 
     if (s2 > 9)
         s2 = s2 % 10;
     if (s > 5)
         s = s % 6;
-
     if (m > 9)
         m = m % 10;
     if (m2 > 5)

@@ -1,6 +1,5 @@
 #ifndef CURSOR_H_INCLUDED
 #define CURSOR_H_INCLUDED
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -11,7 +10,6 @@
 #define startY 450
 
 void exibe(int n){
-
 
     CV::rect(tabX, tabY, tabX + (40 * n), tabY - (40 * n)); // TABULEIRO
 
@@ -42,10 +40,6 @@ void exibe(int n){
     CV::rect(startX, startY - 40, startX + 150, startY);   // BOTAO DE VOLTAR AO MENU
     CV::text(startX + 5, startY - 30, "Voltar ao menu");
 
-
 }
-
-
-
 
 #endif

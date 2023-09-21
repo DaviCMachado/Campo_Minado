@@ -25,6 +25,9 @@
 
 #include "auxiliar.h"
 
+#define MENU 0
+#define JOGANDO 1
+#define FIM 2
 
 #include "timer.h"
 #include "menu.h"
@@ -33,18 +36,11 @@
 #include "cursor.h"
 
 //variaveis globais
-
-
 int screenWidth = 800, screenHeight = 600; //largura e altura inicial da tela. Alteram com o redimensionamento de tela.
 int mx, my; //variaveis globais do mouse para poder exibir dentro da render().
 clock_t begin, end;
 
-
-
-
-
-
-void jj(){
+void jogar(){
 
     init();
 
@@ -83,11 +79,10 @@ void render()
 
     CV::color(0);
 
-    jj();
+    jogar();
 
 
 }
-
 
 //funcao chamada toda vez que uma tecla for pressionada
 void keyboard(int key)
@@ -100,12 +95,6 @@ void keyboard(int key)
 	     endgame();
         break;
 
-    case 202: //finaliza programa
-	 //    init();
-
-        break;
-
-
    }
 }
 //funcao chamada toda vez que uma tecla for liberada
@@ -114,13 +103,11 @@ void keyboardUp(int key)
 
 }
 
-
 //funcao para tratamento de mouse: cliques, movimentos e arrastos
-void mouse(
-           int button, int state, int wheel, int direction, int x, int y)
+void mouse(int button, int state, int wheel, int direction, int x, int y)
 {
 
-   printf("\nmouse %d %d %d %d %d %d", button, state, wheel, direction,  x, y);
+    printf("\nmouse %d %d %d %d %d %d", button, state, wheel, direction,  x, y);
 
     if(jogo.estado == 0 && state == 0 && mx > startX && mx < (startX + 80) && my > startY + 20 && my < (startY + 60))
     {
@@ -192,10 +179,6 @@ void mouse(
         begin = clock();
         jogo.ia = 1;
     }
-
-
-
-
 
    mx = x; //guarda as coordenadas do mouse para exibir dentro da render()
    my = y;

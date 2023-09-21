@@ -1,16 +1,13 @@
 #ifndef MENU_H_INCLUDED
 #define MENU_H_INCLUDED
-
 #include "timer.h"
 #include "matrix.h"
 #include "cursor.h"
 #define startX 580
 #define startY 450
-
 #define overX 580
 #define overY 480
 #include "IA.h"
-
 
 typedef struct{
 
@@ -25,13 +22,13 @@ Jogo jogo;
 void gameOver()
 {
 
-
     CV::rect(overX, overY, overX + 150, overY + 60);
 
-    if (jogo.venceu == 0)
-        CV::text(overX + 10, overY + 20, "GAME OVER!!!");
-    else
-        CV::text(overX + 10, overY + 20, "VOCE VENCEU!!!");
+    CV::text(overX + 10, overY + 20, (jogo.venceu == 0) ? "GAME OVER!!!" : "VOCE VENCEU!!!");
+
+    for (int i = 0; i < jogo.tam; i++)
+        for (int j = 0; j < jogo.tam; j++)
+            mat[i][j].aberto = 1;
 
 }
 
@@ -73,10 +70,9 @@ void init(){
          if (jogo.ia == 1 && jogo.tab == 1)
         {
 
-           // jogo.estado = test(jogo.tam);
-             test(jogo.tam);
+            jogo.estado = test(jogo.tam);
+           //  test(jogo.tam);
         }
-
 
         int ab = 0;
         for (int i = 0; i < jogo.tam; i++)
@@ -110,10 +106,8 @@ void endgame()
 
 void lobby()
 {
-
     for(int i = 0; i < jogo.tam; i++)
         free(mat[i]);
-
     free(mat);
 
     jogo.estado = 0;
